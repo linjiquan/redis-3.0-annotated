@@ -1,0 +1,11 @@
+Build and install steps on ubuntu 16.04:
+
+1	Get source code:
+	git clone https://github.com/linjiquan/redis-3.0-annotated.git
+2	make:
+	make
+3	install:
+	sudo make  PREFIX=/usr/local/redis install
+
+4	run:
+	redis-server
